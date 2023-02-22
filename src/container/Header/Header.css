@@ -1,0 +1,37 @@
+.app__header{
+    background:var(--color-black);
+    color: #fff;
+    
+}
+.custom__button:hover{
+    transition: 0.3s;
+    background: var(--color-crimson);
+}
+.app__header-container{
+    display: flex   ;
+    align-items: center;
+    gap: 12rem;
+    padding: 2rem;
+}
+.app__header-content{
+    width: 1/2;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.app__header-heading{
+    font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 72px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.app__header-subheading{
+    color: #fff;
+}
+.app__header-img{
+    width: 75%;
+}
