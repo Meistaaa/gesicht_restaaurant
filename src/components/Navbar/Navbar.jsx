@@ -31,9 +31,10 @@ const Navbar = () => (
       </a>
     </div>
     <div className="app__navbar-login">
-      <a href="#" className="p__opensans app__nav-login-link" type="button">
+      <a href="#" className="p__opensans " type="button">
         Login / Register
       </a>
+      <p className="vertical-line"></p>
       <a href="#" className="p__opensans " type="button">
         Book Table
       </a>

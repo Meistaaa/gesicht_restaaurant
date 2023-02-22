@@ -23,17 +23,19 @@
 }
 .app__navbar-login{
     display: flex;
-    gap: 12px;
-}
-.app__navbar-login a:first-child{
-    background: transparent;
-
-    padding-right:  1rem ;
-}
-.app__nav-login-link{
-    border-right: 3px solid var(--color-gray);
+    gap: 12px; 
     
 }
+.app__navbar-login{
+    padding: 2px;   
+}
+
+.vertical-line{
+    border-right: 3px solid var(--color-gray);
+
+}
+
 .app__navbar-login a:hover{
-    border-bottom: 2px solid var(--color-golden);
+    margin-bottom:-1px;
+    border-bottom: 1px solid var(--color-golden);
 }
