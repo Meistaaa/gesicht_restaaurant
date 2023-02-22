@@ -1,0 +1,39 @@
+.app__navbar{
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color:var(--color-black);
+    padding: 1rem 2rem;
+
+    font-family: var(--);
+}
+.app__navbar-image{
+    width: 150px;
+}
+.app__links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+.app__links a:hover{
+    color:  #d5d5d5;
+}
+.app__navbar-login{
+    display: flex;
+    gap: 12px;
+}
+.app__navbar-login a:first-child{
+    background: transparent;
+
+    padding-right:  1rem ;
+}
+.app__nav-login-link{
+    border-right: 3px solid var(--color-gray);
+    
+}
+.app__navbar-login a:hover{
+    border-bottom: 2px solid var(--color-golden);
+}
