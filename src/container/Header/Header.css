@@ -11,7 +11,7 @@
     display: flex   ;
     align-items: center;
     gap: 12rem;
-    padding: 2rem;
+    
 }
 .app__header-content{
     width: 1/2;
@@ -24,8 +24,8 @@
 .app__header-heading{
     font-family: var(--font-base);
   color: var(--color-golden);
-  font-size: 72px;
-  line-height: 83.2px;
+  font-size: 86px;
+  line-height: 100px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
 }
@@ -33,5 +33,5 @@
     color: #fff;
 }
 .app__header-img{
-    width: 75%;
+    width: 85%;
 }
