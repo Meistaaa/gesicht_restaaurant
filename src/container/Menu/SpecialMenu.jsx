@@ -9,11 +9,13 @@ const SpecialMenu = () => {
   const [menudata, setMenudata] = useState(data);
   return (
     <div className="section__padding bg__black">
-      <div>
+      <div className="app__specialMenu-header flex__center">
         <SubHeading title="Menu That Fits You Palatte" />
-        <h1 className="p__opensans">Today's Special</h1>
+
+        <h1 className="headtext__cormorant headtext">Today's Special</h1>
       </div>
       <div className="app__specialMenu-content">
+        <h1 className="app__specialMenu-menu_heading">Wine & Beer</h1>
         <div>
           {menudata.wines.map((menu) => {
             return (
@@ -25,7 +27,10 @@ const SpecialMenu = () => {
             );
           })}
         </div>
-        
+        <div className="app__specialMenu-img">
+          <img src={images.menu} alt="" />
+        </div>
+        <h1 className="app__specialMenu-menu_heading">Cocktails</h1>
         <div>
           {menudata.cocktails.map((menu) => {
             return (

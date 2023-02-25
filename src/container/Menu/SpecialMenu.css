@@ -1,11 +1,32 @@
+.app__specialMenu-header{
+    flex-direction: column;
+}
+.headtext{
+    margin-bottom: 8rem;
+}
 .app__specialMenu-content{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 8rem;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 4rem;
+    
+}
+.app__specialMenu-menu_heading{
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+.app__specialMenu-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 .app__specialMenu-img img{
-    background-color: #fff;
+    
     width: 100%;
     height: 600px;
 }
