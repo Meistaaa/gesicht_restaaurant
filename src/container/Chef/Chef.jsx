@@ -30,11 +30,11 @@ const Chef = () => (
             nunc.{" "}
           </p>
         </div>
-        <div>
-          <h1 className="headtext__cormorant">Kevin Luo</h1>
-          <p>Chef & Founder</p>
+        <div className="app__wrapper-author">
+          <p className="app__wrapper-author-name">Kevin Luo</p>
+          <p className="p__opensans">Chef & Founder</p>
         </div>
-        <div>
+        <div className="app__wrapper-sign">
           <img src={images.sign} alt="" />
         </div>
       </div>

@@ -1,3 +1,4 @@
+
 .app__wrapper-quote-container{
     display: flex;
     flex-direction: column;
@@ -17,4 +18,20 @@
 }
 .app__wrapper-quote-container{
     margin-bottom: 4rem;
+}
+.app__wrapper-author{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.app__wrapper-author-name {
+    font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 32px;
+  /* line-height: 83.2px; */
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.app__wrapper-sign img{
+    width: 240px;
 }
