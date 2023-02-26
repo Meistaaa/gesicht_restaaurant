@@ -71,7 +71,7 @@
 }
 .p__cormorant {
   font-family: var(--font-base);
-  color: var(--color-white);
+  color: var(--color-golden);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;

@@ -58,12 +58,12 @@ const cocktails = [
 
 const awards = [
   {
-    imgUrl: images.award02,
+    imgUrl: images.award01,
     title: 'Bib Gourmond',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award01,
+    imgUrl: images.award02,
     title: 'Rising Star',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
