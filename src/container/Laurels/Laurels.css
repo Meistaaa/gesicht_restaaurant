@@ -1,4 +1,7 @@
-
+.section__padding-laurels{
+    padding: 1rem 8rem;
+    padding-bottom: 4rem;
+}
 .app__laurel-logo{
     padding: 2rem;
 }
@@ -12,8 +15,20 @@
     
     
 }
-.app__laurel-img {
-    width: 40%;
+.app__wrapper-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-left: 2rem;
+  }
+  .app__wrapper-img img {
+    width: 80%;
+  }
+.app__laurel_img{
+  width: 20%;
+
 }
 .app__laurels-awards {
     display: flex;
