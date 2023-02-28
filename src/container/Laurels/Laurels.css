@@ -1,9 +1,9 @@
 .section__padding-laurels{
-    padding: 1rem 8rem;
+    padding: 0rem 8rem;
     padding-bottom: 4rem;
 }
 .app__laurel-logo{
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 .app__laurel-logo img{
