@@ -11,3 +11,36 @@
     background: var(--color-black);
     padding-top: 0;
 }
+.app__footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-top: 5rem;
+    padding: 0 2rem;
+}
+.subheading{
+    font-family: var(--font-base);
+  color: var(--color-white);
+  font-size: 32px;
+ 
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.direction-col{
+    flex-direction: column;
+    flex: 1;
+}
+.footer-icons{
+    display: flex;
+    gap: 2rem;
+}
+.footer-icon{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.footer-icon:hover{
+    color: var(--color-golden);
+}
