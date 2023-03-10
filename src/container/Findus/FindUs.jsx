@@ -24,7 +24,9 @@ const FindUs = () => (
       <img src={images.findus} alt="" />
     </div>
     <div>HASEEB</div>
+    <div>HASEEB</div>
   </div>
+  
 );
 
 export default FindUs;
