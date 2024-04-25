@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import './FooterOverlay.css';
+import "./FooterOverlay.css";
 
 const FooterOverlay = () => (
-  <div className='app__footeroverlay'> 
-    <div className='app__footeroverlay-black'></div>
-    <div className='app__footeroverlay-img'></div>
+  <div className="app__footerOverlay">
+    <div className="app__footerOverlay-black" />
+    <div className="app__footerOverlay-img app__bg" />
   </div>
 );
 
